@@ -44,12 +44,12 @@ const LatestPostsGroup = ({ latestPosts }) => {
               'hover:text-white dark:hover:text-white cursor-pointer'
             }
           >
-            <li className="text-line-2">{post.title}</li>
+            <li className="line-clamp-2">{post.title}</li>
           </div>
 
         </Link>)
-      );
+      )
     })}
-  </>;
+  </>
 }
 export default LatestPostsGroup
